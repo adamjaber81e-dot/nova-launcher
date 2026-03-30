@@ -1,0 +1,111 @@
+import { CrosshairPreset } from '../types'
+
+export const CROSSHAIR_PRESETS: CrosshairPreset[] = [
+  {
+    id: 's1mple', name: 's1mple', player: 's1mple', game: 'cs2', team: 'NAVI', country: 'UA',
+    color: '#00FF00', style: 'classic', size: 3, thickness: 1, gap: -3, opacity: 255,
+    outlineEnabled: true, outlineColor: '#000000', outlineThickness: 1, dotEnabled: false, dotSize: 2,
+    topEnabled: true, bottomEnabled: true, leftEnabled: true, rightEnabled: true,
+    dynamicEnabled: false, tStyleEnabled: false, spread: 0,
+  },
+  {
+    id: 'zywoo', name: 'ZywOo', player: 'ZywOo', game: 'cs2', team: 'Vitality', country: 'FR',
+    color: '#FFFF00', style: 'classic', size: 3, thickness: 1, gap: -2, opacity: 255,
+    outlineEnabled: true, outlineColor: '#000000', outlineThickness: 1, dotEnabled: false, dotSize: 2,
+    topEnabled: true, bottomEnabled: true, leftEnabled: true, rightEnabled: true,
+    dynamicEnabled: false, tStyleEnabled: false, spread: 0,
+  },
+  {
+    id: 'niko', name: 'NiKo', player: 'NiKo', game: 'cs2', team: 'G2', country: 'BA',
+    color: '#FF0000', style: 'classic', size: 2, thickness: 1, gap: -3, opacity: 200,
+    outlineEnabled: true, outlineColor: '#000000', outlineThickness: 1, dotEnabled: false, dotSize: 2,
+    topEnabled: true, bottomEnabled: true, leftEnabled: true, rightEnabled: true,
+    dynamicEnabled: false, tStyleEnabled: false, spread: 0,
+  },
+  {
+    id: 'device', name: 'device', player: 'device', game: 'cs2', team: 'Astralis', country: 'DK',
+    color: '#00FFFF', style: 'dot', size: 1, thickness: 1, gap: -5, opacity: 255,
+    outlineEnabled: false, outlineColor: '#000000', outlineThickness: 1, dotEnabled: true, dotSize: 3,
+    topEnabled: false, bottomEnabled: false, leftEnabled: false, rightEnabled: false,
+    dynamicEnabled: false, tStyleEnabled: false, spread: 0,
+  },
+  {
+    id: 'electronic', name: 'electronic', player: 'electronic', game: 'cs2', team: 'NAVI', country: 'UA',
+    color: '#FFFFFF', style: 'classic', size: 4, thickness: 1, gap: -2, opacity: 200,
+    outlineEnabled: true, outlineColor: '#000000', outlineThickness: 1, dotEnabled: false, dotSize: 2,
+    topEnabled: true, bottomEnabled: true, leftEnabled: true, rightEnabled: true,
+    dynamicEnabled: false, tStyleEnabled: false, spread: 0,
+  },
+  {
+    id: 'ropz', name: 'ropz', player: 'ropz', game: 'cs2', team: 'FaZe', country: 'EE',
+    color: '#FF8800', style: 'classic', size: 3, thickness: 1, gap: -3, opacity: 255,
+    outlineEnabled: true, outlineColor: '#000000', outlineThickness: 1, dotEnabled: false, dotSize: 2,
+    topEnabled: true, bottomEnabled: true, leftEnabled: true, rightEnabled: true,
+    dynamicEnabled: false, tStyleEnabled: false, spread: 0,
+  },
+  {
+    id: 'twistzz', name: 'Twistzz', player: 'Twistzz', game: 'cs2', team: 'FaZe', country: 'CA',
+    color: '#00FF88', style: 'classic', size: 2, thickness: 1, gap: -3, opacity: 220,
+    outlineEnabled: true, outlineColor: '#000000', outlineThickness: 1, dotEnabled: true, dotSize: 2,
+    topEnabled: true, bottomEnabled: true, leftEnabled: true, rightEnabled: true,
+    dynamicEnabled: false, tStyleEnabled: false, spread: 0,
+  },
+  {
+    id: 'broky', name: 'broky', player: 'broky', game: 'cs2', team: 'FaZe', country: 'LV',
+    color: '#FF00FF', style: 'classic', size: 3, thickness: 1, gap: -4, opacity: 255,
+    outlineEnabled: true, outlineColor: '#000000', outlineThickness: 1, dotEnabled: false, dotSize: 2,
+    topEnabled: true, bottomEnabled: true, leftEnabled: true, rightEnabled: true,
+    dynamicEnabled: false, tStyleEnabled: false, spread: 0,
+  },
+  {
+    id: 'bugha', name: 'Bugha', player: 'Bugha', game: 'fortnite', team: 'Sentinels', country: 'US',
+    color: '#0080FF', style: 'crossdot', size: 6, thickness: 2, gap: 4, opacity: 255,
+    outlineEnabled: false, outlineColor: '#000000', outlineThickness: 1, dotEnabled: true, dotSize: 3,
+    topEnabled: true, bottomEnabled: true, leftEnabled: true, rightEnabled: true,
+    dynamicEnabled: true, tStyleEnabled: false, spread: 2,
+  },
+  {
+    id: 'mongraal', name: 'Mongraal', player: 'Mongraal', game: 'fortnite', team: 'FaZe', country: 'GB',
+    color: '#FF3300', style: 'cross', size: 5, thickness: 1, gap: 3, opacity: 255,
+    outlineEnabled: false, outlineColor: '#000000', outlineThickness: 1, dotEnabled: false, dotSize: 2,
+    topEnabled: true, bottomEnabled: true, leftEnabled: true, rightEnabled: true,
+    dynamicEnabled: false, tStyleEnabled: false, spread: 1,
+  },
+  {
+    id: 'clix', name: 'Clix', player: 'Clix', game: 'fortnite', team: 'NRG', country: 'US',
+    color: '#FFFFFF', style: 'circle', size: 8, thickness: 1, gap: 0, opacity: 200,
+    outlineEnabled: false, outlineColor: '#000000', outlineThickness: 1, dotEnabled: true, dotSize: 2,
+    topEnabled: false, bottomEnabled: false, leftEnabled: false, rightEnabled: false,
+    dynamicEnabled: false, tStyleEnabled: false, spread: 0,
+  },
+  {
+    id: 'benjyfishy', name: 'benjyfishy', player: 'benjyfishy', game: 'fortnite', team: 'NRG', country: 'GB',
+    color: '#00FF00', style: 'crossdot', size: 7, thickness: 1, gap: 5, opacity: 255,
+    outlineEnabled: false, outlineColor: '#000000', outlineThickness: 1, dotEnabled: true, dotSize: 4,
+    topEnabled: true, bottomEnabled: true, leftEnabled: true, rightEnabled: true,
+    dynamicEnabled: false, tStyleEnabled: false, spread: 0,
+  },
+  {
+    id: 'tfue', name: 'Tfue', player: 'Tfue', game: 'fortnite', country: 'US',
+    color: '#FFFF00', style: 'cross', size: 5, thickness: 1, gap: 2, opacity: 255,
+    outlineEnabled: false, outlineColor: '#000000', outlineThickness: 1, dotEnabled: false, dotSize: 2,
+    topEnabled: true, bottomEnabled: true, leftEnabled: true, rightEnabled: true,
+    dynamicEnabled: false, tStyleEnabled: false, spread: 0,
+  },
+  {
+    id: 'aqua', name: 'Aqua', player: 'Aqua', game: 'fortnite', team: 'Wave', country: 'AT',
+    color: '#00CCFF', style: 'crossdot', size: 6, thickness: 1, gap: 4, opacity: 255,
+    outlineEnabled: false, outlineColor: '#000000', outlineThickness: 1, dotEnabled: true, dotSize: 3,
+    topEnabled: true, bottomEnabled: true, leftEnabled: true, rightEnabled: true,
+    dynamicEnabled: false, tStyleEnabled: false, spread: 0,
+  },
+  {
+    id: 'liquid', name: 'Liquid', player: 'Liquid', game: 'fortnite', country: 'US',
+    color: '#FF6600', style: 'classic', size: 4, thickness: 1, gap: 3, opacity: 230,
+    outlineEnabled: false, outlineColor: '#000000', outlineThickness: 1, dotEnabled: false, dotSize: 2,
+    topEnabled: true, bottomEnabled: true, leftEnabled: true, rightEnabled: true,
+    dynamicEnabled: false, tStyleEnabled: false, spread: 0,
+  },
+]
+
+
